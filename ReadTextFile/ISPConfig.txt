@@ -1,0 +1,15 @@
+{
+	"serverAddress": "http://litegs2.mihuahudong.com:8090",
+	"gemnumlist":	[50,10,60,120,180,300],
+	"giftnumlist":	[0,1,6,24,36,150],
+	"gemmoneylist": [1,1,6,12,18,30],
+	"firstpay": 		1,
+	"payleveltime": 		10,
+	"payopentreasure":	30,
+	"characterpack":	30,
+	"resourcepack":		6,
+	"skillpack":		18,
+	"salepack":			1,
+	"revive":			2,
+	"characterpackcontent": "{\"warriorcoin\":3500,\"2001\":150 }"
+}
