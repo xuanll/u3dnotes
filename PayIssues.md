@@ -7,4 +7,4 @@
 `  Soomla.Store.StoreInventory.BuyItem(itemId, payload);
    onMarketPurchase(PurchasableVirtualItem pvi, string payload, Dictionary<string, string> extra);
 `  
-   > payload是购买成功后返回的string，购买成功后的游戏逻辑写在*onMarketPurchase*方法中
+> payload是购买成功后返回的string，购买成功后的游戏逻辑写在*onMarketPurchase*方法中
