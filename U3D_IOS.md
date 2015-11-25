@@ -3,7 +3,7 @@
 ## Unity call iOS
 - in C# file
  - using System.Runtime.InteropServices;
- - ```
+  ```
    [DllImport("__Internal")]
     private static extern void Soha_Login();
 
@@ -11,7 +11,7 @@
     private static extern void Soha_Payment();
    ```   
    
- - ```
+   ```
   	public static void Login()
     {
 	//#if UNITY_IOS|| UNITY_ANDROID
@@ -29,7 +29,7 @@
 - Info.plist中添加 NSAppTransportSecurity 类型 Dictionary ; 
   在 NSAppTransportSecurity 下添加 NSAllowsArbitraryLoads 类型Boolean ,值设为 YES; 
   **for https requires**
-- ```
+ ```
 	#if defined(__cplusplus)
 	extern "C" {
 	#endif
