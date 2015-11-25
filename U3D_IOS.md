@@ -10,7 +10,7 @@
     [DllImport("__Internal")]
     private static extern void Soha_Payment();
    ```
-  - ```
+ - ```
   	public static void Login()
     {
 	//#if UNITY_IOS|| UNITY_ANDROID
@@ -54,6 +54,12 @@
 ## iOS call Unity
 
 - UnitySendMessage("LoginPanel", "LoginViaSoha", [user.userId UTF8String]);
+
+## Unity Require for "MissingMethodException: Method not found: 'Default constructor not found...ctor() of System.ComponentModel.Int64Converter"
+
+- add file AoTtypes.cs to the Assets/Scripts
+> Q: Unity generated Xcode project fails to compile with following or similar error: Method not found: 'Default constructor not found...ctor() of System.ComponentModel.Int64Converter'.
+A: Deserializers and serializers often reference some types only via .NET Reflection API and in such cases these methods or even classes might be stripped from project. You can hint managed code stripper that specific class / method is used either via link.xml or via introduction of dummy code that explicitly references it in one of your scripts.
 
 
 
