@@ -46,3 +46,6 @@
 		// ... your game specific implementation here ...
 	}
 ```
+
+
+p.s. 打开Soomla iOS Settings 的 Verify开关
