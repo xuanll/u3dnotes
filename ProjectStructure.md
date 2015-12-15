@@ -5,7 +5,7 @@
 	- 打包后文件夹下的资源只读
 	- 使用Resource.Load加载
 	
-－ StreamingAssets
+- StreamingAssets
 	- 流数据的缓存目录
 	- StreamingAssets文件夹下的资源无论使用与否都会被打包
 	- 资源不会被压缩和加密
