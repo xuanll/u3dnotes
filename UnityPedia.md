@@ -4,4 +4,7 @@
 Instantiate(prefab, pos, Quaternion.identity);
 ```
 
+- [HideInInspector]
+在Inspector试图中隐藏参数
+
 
