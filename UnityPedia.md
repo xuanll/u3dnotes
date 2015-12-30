@@ -11,8 +11,8 @@ Instantiate(prefab, pos, Quaternion.identity);
 - __Rotation function__
 ```
 //Rotation function
-		Quaternion rotation = go.transform.rotation;
-		rotation *= Quaternion.Euler (0, 0, -90);
-		go.transform.rotation = rotation;
+	Quaternion rotation = go.transform.rotation;
+	rotation *= Quaternion.Euler (0, 0, -90);
+	go.transform.rotation = rotation;
 ```
 
