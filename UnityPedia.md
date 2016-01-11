@@ -15,4 +15,8 @@ Instantiate(prefab, pos, Quaternion.identity);
 	rotation *= Quaternion.Euler (0, 0, -90);
 	go.transform.rotation = rotation;
 ```
+- Resource.Load("xxx/xxx")中的filePath指的是Assets/Resources之后的部分
+- 使用UGUI需要using UnityEngine.UI
+- Asset Store上下载的资源默认保存地址。Win _C:\Users\admin\AppData\Roaming\Unity\Asset Store-5.x_, Mac ~/Library/Unity/Asset Store
+
 
