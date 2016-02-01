@@ -21,4 +21,5 @@ Instantiate(prefab, pos, Quaternion.identity);
   - Win _C:\Users\admin\AppData\Roaming\Unity\Asset Store-5.x_ 
   - Mac ~/Library/Unity/Asset Store
 
+- Resources.Load加载资源时，文件名不写后缀名
 
