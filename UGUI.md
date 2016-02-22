@@ -63,6 +63,7 @@ public class ClickObject2 : MonoBehaviour
   Fill Area需要选择完全填充，Handle Area也是（在slider.value == 1的情况下）
   
 - Image
-Resources.Load("GameCard/"+item.AssetName, typeof(Sprite)) as Sprite;
+  1. Resources.Load("GameCard/"+item.AssetName, typeof(Sprite)) as Sprite;
+  2. image.overrideSprite 结合上条，动态更改image图片内容
 
 
