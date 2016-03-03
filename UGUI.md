@@ -66,4 +66,7 @@ public class ClickObject2 : MonoBehaviour
   1. Resources.Load("GameCard/"+item.AssetName, typeof(Sprite)) as Sprite;
   2. image.overrideSprite 结合上条，动态更改image图片内容
 
+- Canvas Group忽略点击事件
+> Canvas Group组件的Blocks Raycasts属性变为false，就可以不响应点击事件，原理和collider一样的。
+
 
