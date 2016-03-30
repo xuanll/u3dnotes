@@ -1,6 +1,6 @@
 #Tool类
 - Particle包含适用于粒子系统整体缩放的脚本`ParticleScaler.cs`
-- CheckJson包含检查Json格式是否合法的网站[JSONLint](http://jsonlint.com/)
+- CheckJson包含检查**Json格式是否合法**的网站[JSONLint](http://jsonlint.com/)
 - ReadTextFile包含Unity读取文本文件工具类`ReadFileTool.cs`及示例JSON格式文件`ISPConfig.txt`，序列化(Serializable)用于网络传输对象的`JSCISPConfig`位于`GlobalConfigration.cs`
 - `DelayExcute.cs`使用协程(Coroutine)实现延迟运行的工具类
 
