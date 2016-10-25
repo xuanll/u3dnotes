@@ -11,4 +11,5 @@
 
   >而PlayOneShot是指马上播放一个音乐且只播放一次，同时Pause和Stop对其无效，如果我们调用该方法播放多次音乐，则多个音乐会同时被播放出来。([Ref](http://www.cnblogs.com/hammerc/p/4784688.html))
 
+
  - 在IOS上，可以使用Apple硬件解码的功能来得到更好的效率。在Audio Importer中勾上"Hardware Decoding"即可。([Ref](http://www.cnblogs.com/sifenkesi/p/3503836.html))
