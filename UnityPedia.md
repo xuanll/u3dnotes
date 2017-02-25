@@ -24,4 +24,4 @@ Instantiate(prefab, pos, Quaternion.identity);
 - Unity的QualitySetting中**Blend Weights**中骨骼的数量和**Level**设置会导致模拟器和真机的差异（eg. Dudu猫耳朵动画），调整成最佳效果即可解决问题
 - Unity跨平台开发，使用*#if UNITY_IOS ... #endif*等来区别不同平台代码。[平台代码](http://docs.unity3d.com/Manual/PlatformDependentCompilation.html)
 - 3D物体世界坐标转屏幕空间坐标**Camera.main.WorldToScreenPoint(position);**
-- Frame Debuger ![FrameDebuger](gifs\FramDebuger.gif)
+- Frame Debuger ![FramDebuger](gifs/FramDebuger.gif)
