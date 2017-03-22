@@ -25,3 +25,4 @@ Instantiate(prefab, pos, Quaternion.identity);
 - Unity跨平台开发，使用*#if UNITY_IOS ... #endif*等来区别不同平台代码。[平台代码](http://docs.unity3d.com/Manual/PlatformDependentCompilation.html)
 - 3D物体世界坐标转屏幕空间坐标**Camera.main.WorldToScreenPoint(position);**
 - Frame Debuger ![FramDebuger](gifs/FramDebuger.gif)
+- [ScrollRect]verticalNormalizedPosition滚动框定位	> The vertical scroll position as a value between 0 and 1, with 0 being at the bottom.
