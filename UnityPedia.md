@@ -27,3 +27,4 @@ Instantiate(prefab, pos, Quaternion.identity);
 - Frame Debuger ![FramDebuger](gifs/FramDebuger.gif)
 - [ScrollRect]verticalNormalizedPosition滚动框定位	
   > The vertical scroll position as a value between 0 and 1, with 0 being at the bottom.
+- `Mathf.RoundToInt`: 返回最接近的整数，距离相同时，返回偶数
