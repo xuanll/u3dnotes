@@ -28,3 +28,4 @@ Instantiate(prefab, pos, Quaternion.identity);
 - [ScrollRect]`verticalNormalizedPosition`滚动框定位	
   > The vertical scroll position as a value between 0 and 1, with 0 being at the bottom.
 - `Mathf.RoundToInt`: 返回最接近的整数，距离相同时，返回偶数
+- `Time.realtimeSinceStartup`:游戏开始到现在经历的秒数，应用场景：防沉迷计时
