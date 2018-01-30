@@ -1,6 +1,6 @@
 # Unity接各家Android SDK
 - 在unity的安装目录下找到一个classes.jar文件,复制到Android工程下的libs文件夹中
-- 在Android中的主Activity要继承自继承的是UnityPlayerActivity
+- 在Android中的主Activity要继承自UnityPlayerActivity
 - **Android**调用**unity**的代码
 
 ```C#  
